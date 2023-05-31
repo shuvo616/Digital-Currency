@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital-Currency</title>
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- tailwind output css -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -22,7 +25,7 @@
             </div>
             <!-- menu -->
             <div>
-                <ul class="flex items-center space-x-6">
+                <ul class="hidden lg:flex items-center space-x-6">
                     <li><a href="#home" class="hover:text-color-secondary ease-in duration-200 font-bold">Home</a></li>
                     <li><a href="#features"
                             class="hover:text-color-secondary ease-in duration-200 font-bold">Features</a></li>
@@ -39,8 +42,37 @@
                             Started</button></li>
                 </ul>
             </div>
+            <!-- Hamburger menu for mobile -->
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hLink" href="#home"
+                            class="hover:text-color-secondary ease-in duration-200 font-bold">Home</a></li>
+                    <li><a id="hLink" href="#features"
+                            class="hover:text-color-secondary ease-in duration-200 font-bold">Features</a></li>
+                    <li><a id="hLink" href="#testimonial"
+                            class="hover:text-color-secondary ease-in duration-200 font-bold">Testimonial</a></li>
+                    <li><a id="hLink" href="#pricing"
+                            class="hover:text-color-secondary ease-in duration-200 font-bold">Pricing</a>
+                    </li>
+                    <li><a id="hLink" href="#blog"
+                            class="hover:text-color-secondary ease-in duration-200 font-bold">Blog</a></li>
+                    <li><a id="hLink" href="#contact"
+                            class="hover:text-color-secondary ease-in duration-200 font-bold">Contact</a>
+                    </li>
+
+                    <li><button
+                            class="bg-color-secondary px-9 py-3 rounded-md font-bold hover:opacity-80 ease-in duration-200">Get
+                            Started</button></li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <!-- JS -->
+    <script src="../Js/script.js"></script>
 </body>
 
 </html>
