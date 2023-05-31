@@ -199,18 +199,18 @@
             </div>
         </section>
         <!-- Save Money -->
-        <section id="savings" class="relative">
-            <!-- screen background effect -->
-            <div
-                class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full">
-            </div>
-            <div
-                class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full">
-            </div>
-            <!-- main container -->
-            <div class="container py-20">
-                <div class="flex flex-col justify-between md:flex-row">
-                    <!-- left content -->
+        <section id="saving">
+            <div class="container py-10 relative">
+                <!-- screen background effect -->
+                <div
+                    class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full">
+                </div>
+                <div
+                    class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full">
+                </div>
+                <!-- main content -->
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <!-- Left content -->
                     <div class="mb-12 md:w-1/2">
                         <img src="../img/hero3.png" alt="">
                     </div>
@@ -227,6 +227,131 @@
                         <button
                             class="bg-color-secondary px-9 py-3 rounded-md font-bold hover:opacity-80 ease-in duration-200">Download
                             App</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- How it's work -->
+        <section id="how-it-work" class="bg-color-primary-light">
+            <div class="container py-20">
+                <!-- section heading -->
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="text-2xl text-color-secondary font-bold mb-4">How it's work</h4>
+                    <h1 class="text-3xl font-bold leading-snug md:text-4xl">Grow up your wealth
+                    </h1>
+                </div>
+                <!-- section content -->
+                <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+                    <!-- card 1 -->
+                    <div class="text-center cursor-pointer">
+                        <div
+                            class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                            <p
+                                class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('/img/line.png')] lg:after:absolute lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+                                1</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Transfer Amount</h3>
+                        <p class="leading-relaxed text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex suscipit
+                            tempora accusantium
+                            aperiam quos sed veniam dolores, doloremque illum est.</p>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="text-center cursor-pointer">
+                        <div
+                            class="relative bg-color-secondary inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                            <p
+                                class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('/img/line-bottom.png')] lg:after:absolute lg:after:top-12 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+                                2</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Exchange Rate Today</h3>
+                        <p class="leading-relaxed text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex suscipit
+                            tempora accusantium
+                            aperiam quos sed veniam dolores, doloremque illum est.</p>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="text-center cursor-pointer">
+                        <div
+                            class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                            <p class="text-6xl">3</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Exchange Amount Deposit</h3>
+                        <p class="leading-relaxed text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex suscipit
+                            tempora accusantium
+                            aperiam quos sed veniam dolores, doloremque illum est.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial -->
+        <section id="testimonial">
+            <div class="container py-20">
+                <!-- section heading -->
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="text-2xl text-color-secondary font-bold mb-4">User Review</h4>
+                    <h1 class="text-3xl font-bold leading-snug md:text-4xl">What Clients Say About Our App
+                    </h1>
+                </div>
+                <!-- section content -->
+                <div class="mt-8">
+                    <!-- client images -->
+                    <div class="flex flex-wrap items-center justify-center">
+                        <img src="../img/user1.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic"
+                            onclick="showReview()">
+                        <img src="../img/user2.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="../img/user3.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="../img/user4.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="../img/user5.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                    </div>
+                    <!-- review -->
+                    <div class="grid place-content-center text-center m-auto md:w-4/5 min-h-[40vh]">
+                        <!-- 1 -->
+                        <div class="user-text active-text">
+                            <p class="md:text-2xl mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                ipsam soluta molestiae,
+                                distinctio adipisci quibusdam veniam iste repudiandae reprehenderit.1</p>
+                            <h4 class="text-color-secondary font-bold mb-1 text-xl">John Wick</h4>
+                            <p class="text-base">Web Developer</p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                ipsam soluta molestiae,
+                                distinctio adipisci quibusdam veniam iste repudiandae reprehenderit.2</p>
+                            <h4 class="text-color-secondary font-bold mb-1 text-xl">John Dow</h4>
+                            <p class="text-base">IOS Developer</p>
+                        </div>
+                        <!-- 3 -->
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                ipsam soluta molestiae,
+                                distinctio adipisci quibusdam veniam iste repudiandae reprehenderit.3</p>
+                            <h4 class="text-color-secondary font-bold mb-1 text-xl">John Lie</h4>
+                            <p class="text-base">React Developer</p>
+                        </div>
+                        <!-- 4 -->
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                ipsam soluta molestiae,
+                                distinctio adipisci quibusdam veniam iste repudiandae reprehenderit.4</p>
+                            <h4 class="text-color-secondary font-bold mb-1 text-xl">William K</h4>
+                            <p class="text-base">Flatter Developer</p>
+                        </div>
+                        <!-- 5 -->
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                ipsam soluta molestiae,
+                                distinctio adipisci quibusdam veniam iste repudiandae reprehenderit.5</p>
+                            <h4 class="text-color-secondary font-bold mb-1 text-xl">Vin Disel</h4>
+                            <p class="text-base">JS Developer</p>
+                        </div>
                     </div>
                 </div>
             </div>

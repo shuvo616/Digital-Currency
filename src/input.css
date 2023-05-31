@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.user-text {
+    display: none;
+}
+
+.user-text.active-text {
+    display: block;
+    animation: moveup 1s linear forwards;
+}
+
+.user-pic {
+    transition: all 0.2s ease;
+}
+
+.user-pic.active-pic {
+    border: 2px solid #ff7d3b;
+}
